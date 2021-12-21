@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('../fonts/Oswald-Regular.eot');
+    src: url('../fonts/Oswald-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Oswald-Regular.woff2') format('woff2'),
+    url('../fonts/Oswald-Regular.woff') format('woff'),
+    url('../fonts/Oswald-Regular.ttf') format('truetype'),
+    url('../fonts/Oswald-Regular.svg#Oswald-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/RobotoCondensed-Bold.eot');
+    src: url('../fonts/RobotoCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+    url('../fonts/RobotoCondensed-Bold.woff') format('woff'),
+    url('../fonts/RobotoCondensed-Bold.ttf') format('truetype'),
+    url('../fonts/RobotoCondensed-Bold.svg#RobotoCondensed-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto Condensed';
+}
+.container {
+    max-width: 1350px;
+    margin: auto;
+    background: #7ee399;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 10px;
+}
+.h1{
+    text-align: center;
+}
+.about{
+    font-family: 'Oswald';
+    margin-bottom: 10px;
+}
+
+.container *{
+    text-align: center;
+}
+.task-content h3 {
+    margin: 5px;
+}
+
+input {
+    font-size: 17px;
+    padding: 10px;
+    height: 25px;
+    max-width: 300px;
+}
+input:last-of-type{
+    margin-bottom: 20px;
+}
+.task-text {
+    margin: 0 35px;
+}
+button {
+    cursor: pointer;
+    width: 200px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+p {
+    font-size: 25px;
+    margin: 15px 0;
+}
+.example{
+    max-width: 1350px;
+    margin: auto;
+    background: #7ea6e3;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding:50px 100px;
+}
+.example h5{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+.example:nth-child(2){
+    background: #7ea6e3;
+}
+.example:nth-child(3){
+    background: #7ea6e3;
+}
+.example:nth-child(4){
+    background: #7ea6e3;
+}
+.example:nth-child(5){
+    background: #7ea6e3;
+}
